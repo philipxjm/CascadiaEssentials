@@ -1,0 +1,34 @@
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml"
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+# Forge for 1.15.2 is version 31
+loaderVersion="[35,)"
+# A URL to refer people to when problems occur with this mod
+# If the mods defined in this file should show as seperate resource packs
+showAsResourcePack=false
+license = "gpl-3"
+[[mods]]
+modId="cgessentials"
+version="1.0.0.0"
+displayName="Cascadia Essentials"
+# updateJSONURL="minecraftforge.net/versions.json"
+displayURL="minecraftforge.net"
+logoFile="assets/examplemod/textures/logo.png"
+credits="philipxjm, colt, xluma"
+authors="geeks in cascadia"
+description='''
+      Mod that adds items iconic from Cascadia Gaming.
+      '''
+[[dependencies.cgessentials]]
+modId="forge"
+mandatory=true
+versionRange="[35,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.cgessentials]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.4]"
+ordering="NONE"
+side="BOTH"

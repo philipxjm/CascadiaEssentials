@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="8c8bf063-d608-44c4-9838-d5e4099c96fb" name="XLuma">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>

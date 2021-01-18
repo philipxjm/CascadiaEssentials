@@ -10,4 +10,4 @@ Mod for Cascadia Gaming server.
 
 # Contributing
 * Test all changes locally before pushing
-* Make sure your local repo is up-to-date with the remote
+* Make sure your local repo is up-to-date with the remote before pushing your changes to avoid any problem

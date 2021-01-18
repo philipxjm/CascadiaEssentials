@@ -7,6 +7,7 @@ Mod for Cascadia Gaming server.
 3. Run ```gradlew genIntelliJRuns``` in the terminal (might take some time)
 4. In the top right next to the build icon, make sure the run/debug config is set to runClient
 5. Click the Run button to make sure the mod builds properly, and the client launches. 
+* Make sure to have a Forge 35.x version installed on your client !
 
 # Contributing
 * Test all changes locally before pushing

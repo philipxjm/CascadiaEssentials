@@ -3,11 +3,12 @@ Mod for Cascadia Gaming server.
 
 # Setup
 * Make sure to have a Forge 35.x version installed on your client !
-1. Download IntelliJ IDEA
-2. Clone this repo, and open it in the IDE
-3. Run ```gradlew genIntelliJRuns``` in the terminal (might take some time)
-4. In the top right next to the build icon, make sure the run/debug config is set to runClient
-5. Click the Run button to make sure the mod builds properly, and the client launches. 
+1. Install OpenJDK 8
+2. Download IntelliJ IDEA
+3. Clone this repo, and open it in the IDE
+4. Run ```gradlew genIntelliJRuns``` in the terminal (might take some time)
+5. In the top right next to the build icon, make sure the run/debug config is set to runClient
+6. Click the Run button to make sure the mod builds properly, and the client launches. 
 
 
 # Contributing

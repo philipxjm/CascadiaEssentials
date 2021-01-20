@@ -1,5 +1,6 @@
 package com.cascadia.cgessentials;
 
+import com.cascadia.cgessentials.core.init.BlockInit;
 import com.cascadia.cgessentials.core.init.ItemInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -33,6 +34,7 @@ public class cgessentials
         bus.addListener(this::setup);
 
         ItemInit.ITEMS.register(bus);
+        BlockInit.BLOCKS.register(bus);
         // Register the setup method for modloading
        // FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading

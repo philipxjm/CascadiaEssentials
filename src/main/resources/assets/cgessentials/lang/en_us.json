@@ -1,7 +1,10 @@
 {
 
     "item.cgessentials.parmesan_ball": "Parmesan ball",
+    "item.cgessentials.astral_slicer": "Astral Slicer",
 
 
-    "block.cgessentials.a_block": "Block 'A'"
+    "block.cgessentials.a_block": "Block 'A'",
+
+    "cgessentials.tooltip.astral_slicer.hold_shift": "Hold shift for more information"
 }

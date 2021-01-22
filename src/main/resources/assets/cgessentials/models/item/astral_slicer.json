@@ -1,0 +1,18 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "cgessentials:items/astral_slicer"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [ 50, 90, -10 ],
+      "translation": [ 0.5, 20, 0 ],
+      "scale": [ 3, 3, 2 ]
+    },
+    "firstperson_righthand": {
+      "rotation": [ 20, -110, 50 ],
+      "translation": [ 5, 10, 2 ],
+      "scale": [ 3, 3, 2 ]
+    }
+  }
+}

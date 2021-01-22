@@ -1,9 +1,10 @@
 package com.cascadia.cgessentials.core.init;
 
 import com.cascadia.cgessentials.cgessentials;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import com.cascadia.cgessentials.common.items.astral_slicer;
+
+
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -15,6 +16,11 @@ public class ItemInit {
 
     public static final RegistryObject<Item> PARMESAN_BALL = ITEMS.register("parmesan_ball",
             () -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
+
+    public static final RegistryObject<astral_slicer> ASTRAL_SLICER =ITEMS.register("astral_slicer",
+            () -> new astral_slicer(new Item.Properties().group(ItemGroup.COMBAT)
+                    .defaultMaxDamage(10000000)));
+
 
     //Block Items
 

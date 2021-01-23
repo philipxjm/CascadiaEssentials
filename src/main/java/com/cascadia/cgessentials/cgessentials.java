@@ -2,6 +2,7 @@ package com.cascadia.cgessentials;
 
 import com.cascadia.cgessentials.core.init.BlockInit;
 import com.cascadia.cgessentials.core.init.ItemInit;
+import com.cascadia.cgessentials.core.init.SoundInit;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.ComposterBlock;
@@ -36,6 +37,7 @@ public class cgessentials
 
         ItemInit.ITEMS.register(bus);
         BlockInit.BLOCKS.register(bus);
+        SoundInit.SOUNDS.register(bus);
         // Register the setup method for modloading
        // FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         // Register the enqueueIMC method for modloading

@@ -1,0 +1,12 @@
+{
+  "disc.rick": {
+    "category": "disc",
+    "subtitle": "rick",
+    "sounds": [
+      {
+        "name": "cgessentials:disc/rick",
+        "stream": true
+      }
+     ]
+  }
+}

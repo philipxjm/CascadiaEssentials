@@ -1,13 +1,17 @@
 package com.cascadia.cgessentials.core.init;
 
 import com.cascadia.cgessentials.cgessentials;
+import com.cascadia.cgessentials.common.items.ModMusicDiscItem;
 import com.cascadia.cgessentials.common.items.astral_slicer;
 
 
 import net.minecraft.item.*;
+import net.minecraft.util.SoundEvent;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
+
+import java.util.function.Supplier;
 
 public class ItemInit {
 
@@ -20,6 +24,9 @@ public class ItemInit {
     public static final RegistryObject<astral_slicer> ASTRAL_SLICER =ITEMS.register("astral_slicer",
             () -> new astral_slicer(new Item.Properties().group(ItemGroup.COMBAT)
                     .defaultMaxDamage(10000000)));
+    public static final RegistryObject<Item> RICK_DISK = ITEMS.register("rick_disc",
+            () -> new ModMusicDiscItem(5, SoundInit.LAZY_RICK_MUSIC.get(),
+                    new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.EPIC)));
 
 
     //Block Items

@@ -1,5 +1,5 @@
 # CascadiaEssentials
-Mod for Cascadia Gaming server.
+Mod for Cascadia Gaming server. Consists of pretty much anything that my head can come up with.
 
 # Setup
 * Make sure to have a Forge 35.x version installed on your client !
